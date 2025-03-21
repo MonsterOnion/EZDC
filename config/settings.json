@@ -1,0 +1,14 @@
+{
+    "language": "English",
+    "themeName": "Light",
+    "selectedTheme": 0,
+    "fontSize": 14,
+    "selectedFontSize": 1,
+    "defaultDownloadFolder": "D:\\Projects\\scallion\\media\\download",
+    "downloadPreset": "",
+    "selectedDownloadPreset": 1,
+    "defaultConversionFolder": "D:\\Projects\\scallion\\media\\convert",
+    "conversionPreset": "",
+    "selectedConversionPreset": 0,
+    "deleteOriginalFile": false
+}

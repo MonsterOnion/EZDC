@@ -1,0 +1,117 @@
+/* General Styling */
+QWidget {
+    background-color: #f8f9fa;
+    color: #202020;
+    font-size: 14px;
+}
+
+/* Frames */
+QFrame {
+    border: 1px solid #d0d0d0;
+    border-radius: 4px;
+}
+
+/* Labels */
+QLabel {
+    color: #202020;
+}
+
+/* Buttons */
+QPushButton {
+    background-color: #e9ecef;
+    color: #202020;
+    border: 1px solid #c0c0c0;
+    padding: 5px;
+    border-radius: 4px;
+}
+QPushButton:hover {
+    background-color: #d6d8db;
+}
+QPushButton:pressed {
+    background-color: #bfc2c5;
+}
+
+/* Checkboxes */
+QCheckBox {
+    color: #202020;
+}
+QCheckBox::indicator {
+    width: 16px;
+    height: 16px;
+}
+QCheckBox::indicator:checked {
+    background-color: #0078d7;
+    border: 1px solid #005a9e;
+}
+
+/* Combobox */
+QComboBox {
+    background-color: #ffffff;
+    border: 1px solid #c0c0c0;
+    padding: 4px;
+}
+QComboBox::drop-down {
+    border-left: 1px solid #c0c0c0;
+}
+
+/* Line Edit */
+QLineEdit {
+    background-color: #ffffff;
+    border: 1px solid #c0c0c0;
+    padding: 4px;
+}
+
+/* Text Edit */
+QTextEdit {
+    background-color: #ffffff;
+    border: 1px solid #c0c0c0;
+    padding: 4px;
+}
+
+/* Tab Widget */
+QTabWidget::pane {
+    border: 1px solid #c0c0c0;
+    background: #ffffff;
+}
+QTabBar::tab {
+    background: #e9ecef;
+    padding: 8px;
+    border: 1px solid #c0c0c0;
+}
+QTabBar::tab:selected {
+    background: #d6d8db;
+}
+
+/* List Widget */
+QListWidget {
+    background-color: #ffffff;
+    border: 1px solid #c0c0c0;
+}
+QListWidget::item:selected {
+    background-color: #d6d8db;
+    color: #202020;
+}
+
+/* Progress Bar */
+QProgressBar {
+    border: 1px solid #c0c0c0;
+    background: #ffffff;
+    text-align: center;
+}
+QProgressBar::chunk {
+    background: #0078d7;
+}
+
+/* Menu */
+QMenu {
+    background-color: #ffffff;
+    border: 1px solid #c0c0c0;
+}
+QMenu::item:selected {
+    background: #d6d8db;
+}
+
+/* File Dialog */
+QFileDialog {
+    background-color: #ffffff;
+}

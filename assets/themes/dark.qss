@@ -1,0 +1,121 @@
+/* General Styling */
+QWidget {
+    background-color: #2b2b2b;
+    color: #e0e0e0;
+    font-size: 14px;
+}
+
+/* Frames */
+QFrame {
+    border: 1px solid #555555;
+    border-radius: 4px;
+}
+
+/* Labels */
+QLabel {
+    color: #e0e0e0;
+}
+
+/* Buttons */
+QPushButton {
+    background-color: #3c3f41;
+    color: #e0e0e0;
+    border: 1px solid #555555;
+    padding: 5px;
+    border-radius: 4px;
+}
+QPushButton:hover {
+    background-color: #505357;
+}
+QPushButton:pressed {
+    background-color: #606368;
+}
+
+/* Checkboxes */
+QCheckBox {
+    color: #e0e0e0;
+}
+QCheckBox::indicator {
+    width: 16px;
+    height: 16px;
+}
+QCheckBox::indicator:checked {
+    background-color: #0095ff;
+    border: 1px solid #0078d7;
+}
+
+/* Combobox */
+QComboBox {
+    background-color: #3c3f41;
+    border: 1px solid #555555;
+    padding: 4px;
+    color: #e0e0e0;
+}
+QComboBox::drop-down {
+    border-left: 1px solid #555555;
+}
+
+/* Line Edit */
+QLineEdit {
+    background-color: #3c3f41;
+    border: 1px solid #555555;
+    padding: 4px;
+    color: #e0e0e0;
+}
+
+/* Text Edit */
+QTextEdit {
+    background-color: #3c3f41;
+    border: 1px solid #555555;
+    padding: 4px;
+    color: #e0e0e0;
+}
+
+/* Tab Widget */
+QTabWidget::pane {
+    border: 1px solid #555555;
+    background: #3c3f41;
+}
+QTabBar::tab {
+    background: #505357;
+    padding: 8px;
+    border: 1px solid #555555;
+}
+QTabBar::tab:selected {
+    background: #606368;
+}
+
+/* List Widget */
+QListWidget {
+    background-color: #3c3f41;
+    border: 1px solid #555555;
+}
+QListWidget::item:selected {
+    background-color: #505357;
+    color: #e0e0e0;
+}
+
+/* Progress Bar */
+QProgressBar {
+    border: 1px solid #555555;
+    background: #3c3f41;
+    text-align: center;
+    color: #e0e0e0;
+}
+QProgressBar::chunk {
+    background: #0095ff;
+}
+
+/* Menu */
+QMenu {
+    background-color: #3c3f41;
+    border: 1px solid #555555;
+}
+QMenu::item:selected {
+    background: #505357;
+}
+
+/* File Dialog */
+QFileDialog {
+    background-color: #3c3f41;
+}

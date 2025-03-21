@@ -1,0 +1,90 @@
+{
+    "MKV 4K Ultra HD": {
+        "presetType": "video",
+        "videoCodec": "libx264",
+        "audioCodec": "aac",
+        "width": 3840,
+        "height": 2160,
+        "videoBitrate": "15M",
+        "audioBitrate": "320k",
+        "fps": 30,
+        "audioChannels": 2,
+        "outputFormat": "mkv"
+    },
+    "MP4 1080p Full HD": {
+        "presetType": "video",
+        "videoCodec": "libx264",
+        "audioCodec": "aac",
+        "width": 1920,
+        "height": 1080,
+        "videoBitrate": "8M",
+        "audioBitrate": "256k",
+        "fps": 30,
+        "audioChannels": 2,
+        "outputFormat": "mp4"
+    },
+    "MP4 720p HD": {
+        "presetType": "video",
+        "videoCodec": "libx264",
+        "audioCodec": "aac",
+        "width": 1280,
+        "height": 720,
+        "videoBitrate": "5M",
+        "audioBitrate": "192k",
+        "fps": 30,
+        "audioChannels": 2,
+        "outputFormat": "mp4"
+    },
+    "MP4 480p SD": {
+        "presetType": "video",
+        "videoCodec": "libx264",
+        "audioCodec": "aac",
+        "width": 854,
+        "height": 480,
+        "videoBitrate": "2.5M",
+        "audioBitrate": "128k",
+        "fps": 30,
+        "audioChannels": 2,
+        "outputFormat": "mp4"
+    },
+    "MP4 360p Low": {
+        "presetType": "video",
+        "videoCodec": "libx264",
+        "audioCodec": "aac",
+        "width": 640,
+        "height": 360,
+        "videoBitrate": "1.5M",
+        "audioBitrate": "128k",
+        "fps": 30,
+        "audioChannels": 2,
+        "outputFormat": "mp4"
+    },
+    "MP3 320kbps": {
+        "presetType": "audio",
+        "audioCodec": "libmp3lame",
+        "audioBitrate": "320k",
+        "audioChannels": 2,
+        "outputFormat": "mp3"
+    },
+ "MP3 256kbps": {
+        "presetType": "audio",
+        "audioCodec": "libmp3lame",
+        "audioBitrate": "256k",
+        "audioChannels": 2,
+        "outputFormat": "mp3"
+    },
+    "MP3 192kbps": {
+        "presetType": "audio",
+        "audioCodec": "libmp3lame",
+        "audioBitrate": "192k",
+        "audioChannels": 2,
+        "outputFormat": "mp3"
+    },
+    "MP3 128kbps": {
+        "presetType": "audio",
+        "audioCodec": "libmp3lame",
+        "audioBitrate": "128k",
+        "audioChannels": 2,
+        "outputFormat": "mp3"
+    }
+}
