@@ -32,7 +32,7 @@ class SettingsTab(QWidget):
 
 		version_layout = QHBoxLayout()
 		self.version_label = QLabel(self.language["settingsTab"].get("currentVersion"))
-		self.version_text = QLineEdit("1.0.0")
+		self.version_text = QLineEdit("1.0.1")
 		self.version_text.setReadOnly(True)
 		self.version_text.setAccessibleName(self.language["settingsTab"].get("currentVersion"))
 
