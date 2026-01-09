@@ -1,3 +1,6 @@
+## Status
+🔒 Archived – This project is no longer actively maintained.
+
 # EZDC | The essential tool for effortless media file downloads and conversions
 EZDC is an easy-to-use tool designed for downloading online videos and converting media files, with accessibility in mind—particularly for blind users who rely on screen readers to operate their computers.
 
